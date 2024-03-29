@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-axios.js - Lemon Squeezy API 客户端配置
+## axios.js - Lemon Squeezy API 客户端配置
 
 功能：配置与Lemon Squeezy API的HTTP通信。
 
@@ -32,7 +32,7 @@ baseURL：设置为Lemon Squeezy API的地址。
 
 headers：包含接收和发送数据的类型application/vnd.api+json和用于身份验证的Authorization，后者通过环境变量LEMON_SQUEEZY_API_KEY动态获取Bearer token。
 
-route.js（创建结账会话）
+## route.js（创建结账会话）
 
 功能：实现创建结账会话的服务器端逻辑。
 
@@ -48,7 +48,7 @@ route.js（创建结账会话）
 
 从API响应中提取checkoutUrl并返回，用于客户端重定向到结账页面。
 
-route.js（处理Webhook）
+## route.js（处理Webhook）
 
 功能：处理Lemon Squeezy发送的Webhook事件。
 
@@ -64,7 +64,7 @@ route.js（处理Webhook）
 
 返回处理结果，成功时通知Webhook received，失败时返回错误。
 
-page.js - 前端定价页面
+## page.js - 前端定价页面
 
 功能：展示可购买的产品及其价格计划，并允许用户操作购买。
 
