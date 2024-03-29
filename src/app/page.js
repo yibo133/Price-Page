@@ -37,7 +37,7 @@ export default function Home() {
     "Save unlimited projects online",
     "Unlimited video length",
     "Custom branding",
-    "30GB cloud storage",
+    "60GB cloud storage",
     "100GB video hosting space",
     "Upload custom fonts",
     "Save up to 100 templates",
